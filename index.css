@@ -1,0 +1,18 @@
+#markdown #inline-gpg {
+    border: 2px solid black;
+    height: 250px;
+    overflow: scroll;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#markdown pre {
+    background: lightgray;
+    border: 2px solid dimgray;
+    padding: 8px;
+}
+
+#markdown pre::first-line {
+    font-weight: bold;
+}
