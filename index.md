@@ -1,7 +1,9 @@
 ---
 title: oitofelix - Article&#58; GPG and SSH key handling
 description: >
-
+  The "GPG and SSH key handling" article shows how to handle GPG and
+  SSH cryptographic keys for common use cases.  Currently, it covers
+  the importing and validation of my public keys.
 tags: article, free software, GPG, SSH, PGP, cryptography
 license: CC BY-SA 4.0
 layout: oitofelix-homepage
