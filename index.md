@@ -7,7 +7,7 @@ description: >
 tags: article, free software, GPG, SSH, PGP, cryptography
 license: CC BY-SA 4.0
 layout: oitofelix-homepage
-#base: http://oitofelix.github.io
+base: http://oitofelix.github.io
 #base_local: http://localhost:4001
 ---
 <div id="markdown" markdown="1">
@@ -17,8 +17,8 @@ This article shows how to handle GPG and SSH cryptographic keys for
 common use cases.  Currently, it covers the importing and validation
 of my public keys.
 
-- [GPG key handling](#gpg-key)
-- [SSH key handling](#ssh-key)
+- [GPG key handling]({{site.baseurl}}/#gpg-key)
+- [SSH key handling]({{site.baseurl}}/#ssh-key)
 
 
 ### GPG key
@@ -29,15 +29,15 @@ signature in emails and tarball releases, for example.  There
 are three main ways of obtaining my public GPG key:
 
 1. Using browser's inline GPG handling capabilities.
-   [Try it!](#browser-inline-handling)
+   [Try it!]({{site.baseurl}}/#browser-inline-handling)
 2. Receiving keys from a GPG key server.
-   [Try it!](#receiving-from-a-key-server)
+   [Try it!]({{site.baseurl}}/#receiving-from-a-key-server)
 3. Manually downloading a GPG key file.
-   [Try it!](#manual-download)
+   [Try it!]({{site.baseurl}}/#manual-download)
 
 After you obtain my public key, it's highly relevant that you verify
 the authenticity of the key by
-[checking its fingerprint](#checking-fingerprint).
+[checking its fingerprint]({{site.baseurl}}/#checking-fingerprint).
 
 You might want to know that my GPG key is of type 2048-bit RSA, was
 generated on 2013-01-12 and won't expire.  Its fingerprint is `7CB1
